@@ -5,10 +5,11 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Nossos serviços</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Nossa loja não apenas vende produtos, mas também oferece uma ampla gama de serviços especializados que podem ser cruciais para atender às necessidades variadas dos clientes.
+            Além de fornecer uma variedade de produtos de vidro, A Recife Glass se destaca pelos seus serviços personalizados, que vão desde o corte preciso de vidro até a 
+            instalação profissional
           </p>
         </div>
         <div className="row">
