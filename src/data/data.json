@@ -6,16 +6,16 @@
   "About": {
     "paragraph": "Apresentamos nossa empresa especializada em soluções de vidros inovadoras e de alta qualidade. Com anos de experiência no setor, oferecemos uma ampla gama de produtos de vidro, desde janelas e portas até espelhos e divisórias, atendendo tanto a clientes residenciais quanto comerciais. Nossa equipe de profissionais altamente capacitados está comprometida em proporcionar designs personalizados, durabilidade excepcional e instalação eficiente. Trabalhamos com tecnologia de ponta para garantir a segurança e a estética em cada projeto. Valorizamos a satisfação do cliente e buscamos constantemente superar as expectativas por meio de produtos inovadores e um serviço excepcional. Seja para renovar espaços ou criar ambientes modernos, nossa empresa de vidros é a parceira confiável para suas necessidades.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Corte personalizado:",
+      "Instalação profissional",
+      "Produtos personalizados",
+      "Consultoria especializada"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Material de qualidade",
+      "Entrega dentro do prazo",
+      "Facilidade de pagamento"
+      
     ]
   },
   "Gallery": [
@@ -67,34 +67,19 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-windows",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
       "icon": "fa fa-home",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Serviços residenciais",
+      "text": "Fachada | Janelas | Portas | Escadas | Sacadas | Espelhos | Box de banheiros "
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Serviços comerciais",
+      "text": "Fachada | Janelas | Portas | Escadas | Sacadas | Espelhos"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa  fa-cog",
+      "name": "Outros serviços",
+      "text": "Portões de aluminio | Automação de portões | Corrimão inox | Reparos e Substituições"
     }
   ],
   "Testimonials": [
