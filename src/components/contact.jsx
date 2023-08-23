@@ -148,10 +148,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Todos os direitos reservados. Design by: Carlos Eduardo Vieira e Matheus Dornelles.
-            {/* <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a> */}
+            &copy; 2023 Todos os direitos reservados. Design by: Carlos Eduardo Vieira e Matheus Dornelles. 
+            <a href="https://portfolio-react-six-pi.vercel.app/" rel="nofollow">
+              Link do Repositório
+            </a>
           </p>
         </div>
       </div>
