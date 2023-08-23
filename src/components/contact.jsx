@@ -1,44 +1,44 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
+// import { useState } from "react";
+// import emailjs from "emailjs-com";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+// const initialState = {
+//   name: "",
+//   email: "",
+//   message: "",
+// };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  // const [{ name, email, message }, setState] = useState(initialState);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setState((prevState) => ({ ...prevState, [name]: value }));
+  // };
+  // const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(name, email, message);
+  //   emailjs
+  //     .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         clearState();
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+                <h2>Faça ja seu orçamento</h2>
+          {/* <div className="col">
             <div className="row">
               <div className="section-title">
-                <h2>Faça ja seu orçamento</h2>
                 <p>
                   
                 </p>
@@ -92,26 +92,26 @@ export const Contact = (props) => {
                 </button>
               </form>
             </div>
-          </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <h3>Contact Info</h3>
+          </div> */}
+          <div className="col col-md-offset-1 contact-info">
+              <h3>Contatos</h3>
+            {/* <div className="contact-item col-md-4">
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Endereço
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
-            </div>
-            <div className="contact-item">
+            </div> */}
+            <div className="contact-item col-md-4">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Telefone
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
             </div>
-            <div className="contact-item">
+            <div className="contact-item col-md-4">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
@@ -125,20 +125,20 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/recife__glass/">
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/message/25ACREIXZPYWL1?autoload=1&app_absent=0" >
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -148,10 +148,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
+            &copy; 2023 Todos os direitos reservados. Design by: Carlos Eduardo Vieira e Matheus Dornelles.
+            {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
